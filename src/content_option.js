@@ -11,7 +11,7 @@ const introdata = {
         second: "Very Demure",
         third: "Very Cutesy",
     },
-    description: "with a deep passion for technology, eager to apply my knowledge of IT processes and challenges in a professional setting",
+    description: "a 4th Year IT student who just want to find the university's exit!",
     your_img_url: "C:\\Users\\John Rey Galia\\Desktop\\JRG.JPG"
 };
 
@@ -31,40 +31,19 @@ const worktimeline = [{
     }
     
 ];
-
-const skills = [{
-        name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
-        value: 80,
-    },
-    {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
-    },
+const skills = [
 ];
-
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "HEMISENSE Project | CHED RO XI",
+        description: "Project Manager: Directed all phases of the project lifecycle, from initial conception through to successful deployment, ensuring that all project goals were met on time.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Tickets All App",
+        description: "Mobile application for selling and purchasing tickets.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Take-out Box POS",
+        description: "A point of sale system for take-out box company that sells foodboxes.",
     },
 ];
 
@@ -97,40 +76,8 @@ const dataportfolio = [{
         img: "https://picsum.photos/400/700/?grayscale",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-];
-
+    }
+]
 const contactConfig = {
     YOUR_EMAIL: "galiajohnrey01@gmail.com",
     YOUR_FONE: "+63 976 086 1466",
@@ -138,8 +85,8 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com"
+    github: "https://github.com/Deymdeej/react-portfolio",
+    facebook: "https://www.facebook.com/johnrey.galia.71"
 };
 export {
     meta,
