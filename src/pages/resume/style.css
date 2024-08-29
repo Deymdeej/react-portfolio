@@ -1,0 +1,17 @@
+/* style.css */
+body {
+    margin: 2;
+    padding: 2;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 50%;
+  }
+  
+  .img-fluid {
+    max-width: 50%;
+    height: auto;
+    border-radius: 5px;
+  }
+  

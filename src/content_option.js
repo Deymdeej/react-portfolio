@@ -12,7 +12,7 @@ const introdata = {
         third: "Very Cutesy",
     },
     description: "a 4th Year IT student who just want to find the university's exit!",
-    your_img_url: "C:\\Users\\John Rey Galia\\Desktop\\JRG.JPG"
+    your_img_url: "/images/JRG.jpg"
 };
 
 const dataabout = {
@@ -48,35 +48,40 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "/images/cert2.png",
+        description: "NCII Computer Systems Servicing",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "/images/cert1.png",
+        description: "Network Security",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "/images/cert3.png",
+        description: "Public Defense",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "/images/cert4.png",
+        description: "Intro to 2D Animation",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "/images/cert5.png",
+        description: "Digital Illustration and Design",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "/images/cert6.jpg",
+        description: "CHED Project Deployment",
         link: "#",
-    }
+    },
+    {
+        img: "/images/cert7.jpg",
+        description: "CHED Project Acceptance",
+        link: "#",
+    },
 ]
 const contactConfig = {
     YOUR_EMAIL: "galiajohnrey01@gmail.com",
@@ -86,8 +91,45 @@ const contactConfig = {
 
 const socialprofils = {
     github: "https://github.com/Deymdeej/react-portfolio",
-    facebook: "https://www.facebook.com/johnrey.galia.71"
+    facebook: "https://www.facebook.com/johnrey.galia.71",
+    gmail: "https://www.facebook.com/johnrey.galia.71"
 };
+const resume = [{
+    img: "/images/cert2.png",
+    description: "NCII Computer Systems Servicing",
+    link: "#",
+},
+{
+    img: "/images/cert1.png",
+    description: "Network Security",
+    link: "#",
+},
+{
+    img: "/images/cert3.png",
+    description: "Public Defense",
+    link: "#",
+},
+{
+    img: "/images/cert4.png",
+    description: "Intro to 2D Animation",
+    link: "#",
+},
+{
+    img: "/images/cert5.png",
+    description: "Digital Illustration and Design",
+    link: "#",
+},
+{
+    img: "/images/cert6.jpg",
+    description: "CHED Project Deployment",
+    link: "#",
+},
+{
+    img: "/images/cert7.jpg",
+    description: "CHED Project Acceptance",
+    link: "#",
+},
+]
 export {
     meta,
     dataabout,
@@ -99,4 +141,5 @@ export {
     contactConfig,
     socialprofils,
     logotext,
+    resume,
 };
